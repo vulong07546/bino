@@ -1,0 +1,21 @@
+
+.trial {
+    height: 25vw;
+    background-image: url(../pictures/trailbg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.trial-box {
+    width: 55vw;
+    height: 8vw;
+    color: #fff;
+}
+
+.trial-box a {
+    background-color:rgb(231, 76, 60);
+    padding: 1rem 3rem;
+}

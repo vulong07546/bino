@@ -1,0 +1,120 @@
+#home {
+    height: 53vw;
+    background-image: url(../pictures/homebg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+}
+/*
+.center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+*/
+.home {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 30% 40% 30%;
+}
+.home p {
+    font-size: 1rem;
+}
+
+.home-row1{
+    margin-top: 1rem;
+}
+
+.home-row1-menu{
+    height: 25%;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.home-row1-menu-bino_logo img{
+    float: left;
+}
+
+.home-row1-menu-menu li {
+    float: right;
+    padding: 0 0.5rem ;
+    border: none;
+    outline: none;
+}
+
+
+.home-row1-menu-menu a:hover {
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid rgb(231, 76, 60);
+    color: rgb(231, 76, 60);
+}
+
+.home-row2-box{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.home-row2-box h2{
+    font-size: 1.6rem;
+}
+
+.home-row2-box h1{
+    font-size: 3.5rem;
+}
+
+.home-row2-box .home-row2-box-p{
+    width: 60%;
+    margin: 0px auto;
+}
+.home-row2-box-btn a {
+    width: 12rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 0.1rem;
+    border: 1px solid rgb(247, 246, 246);
+}
+.home-row2-box-btn a:hover {
+    background-color: rgba(231, 76, 60,0.8);
+}
+
+.home-row3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.home-row3-btn{
+    width: 2rem;
+    height: 2rem;
+    background-image: url(../pictures/muiten.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    position: relative;
+    top: 1rem;
+}
+
+.home-row2-box-btn-prev {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-color: #716a65;
+    line-height: 2rem;
+    text-align: center;
+    position: relative;
+    right: 30rem;
+}
+.home-row2-box-btn-next {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-color: #716a65;
+    line-height: 2rem;
+    text-align: center;
+    position: relative;
+    right: -30rem;
+}

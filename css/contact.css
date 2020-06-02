@@ -1,0 +1,119 @@
+#contact {
+    background-color: #f4f5f9;
+}
+.contact {
+    height: 60vw;
+}
+
+.contact {
+    display: grid;
+    grid-template-rows: 40% 60%;
+    grid-auto-rows: 100%;
+}
+
+.contact-row1 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(121, 121, 121);
+}
+
+.contact-row1-box h1 {
+    font-size: 2.5rem;
+}
+.contact-row2 h3 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.contact-row2-col1,
+.contact-row2-col2 {
+    width: 29vw;
+    height: 29vw;
+    background-color: #ffffff;
+}
+
+.contact-row2-col1{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-row2-col1-box{
+    width: 20vw;
+    height: 20vw;
+    display: grid;
+    grid-template-rows: 33% 33% 33%;
+}
+
+
+.contact-row2-col1-box-row * {
+    text-align: left;
+}
+.contact-row2-col1-box-row h1 {
+    color: #e74e3e;
+}
+.contact-row2-col1-box-row h1 {
+    color: #e74e3e;
+}
+.contact-row2-col1-box-row h3 {
+    color:rgb(121, 121, 121);
+}
+.clear {
+    clear: both;
+}
+.contact-row2-col2{
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-row2-col2-box {
+    width: 20vw;
+    height: 20vw;
+    display: grid;
+    grid-template-rows: 3vw 3vw 3vw 6vw 3vw;
+}
+
+.contact-row2-col2-box-item{
+    height: 100%;
+    padding: 0;
+}
+.contact-row2-col2-box-item input{
+    height: 3vw;
+    width: 20vw;
+    line-height: 3vw;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid #f4f5f9;
+    color: rgb(121, 121, 121);
+}
+.contact-row2-col2-box-item textarea{
+    height: 6vw;
+    width: 20vw;
+    line-height: 3vw;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid #f4f5f9;
+    color: rgb(121, 121, 121);
+}
+
+.contact-row2-col2-box-item input:focus,
+.contact-row2-col2-box-item input:hover,
+.contact-row2-col2-box-item textarea:focus,
+.contact-row2-col2-box-item textarea:hover {
+    outline: none;
+}
+
+.contact-row2-col2-box-item {
+    text-align: left;
+}
+.contact-row2-col2-box-item a{
+    background-color: rgb(231, 76, 60);
+    padding: 0.6rem 2.5rem;
+    margin-top: 1rem;
+}

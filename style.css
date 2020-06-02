@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    font-size: 1vw;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    
+    width: 100%;
+    /*background-color: rgb(255, 255, 255);*/
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 20px;
+    font-weight: 300;
+    text-align: center;
+    
+}
+
+
+
+.min {
+    max-width: 60vw;
+    margin: 0 auto;
+}
+
+
+.menu_horizontal ul {
+    list-style-type: none;
+    float: right;
+}
+
+.menu_horizontal ul li {
+    display: inline;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+}
+.slogan h3 {
+    font-size: 24px;
+}
+
+.slogan h1 {
+    font-size: 72px;
+}
+
+
+
+
+
+
+
+.separator {
+    position: relative;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(231, 76, 60);
+    border-radius: 50%;
+    line-height: 40px;
+}
+
+.separator::before {
+    position: absolute;
+    left: -90px;
+    bottom: 4px;
+    height: 1px;
+    width: 80px;
+    background: #eee;
+    content: "";
+    display: inline-block;
+}
+
+.separator::after {
+    position: absolute;
+    left: 5%;
+    bottom: 4px;
+    height: 1px;
+    width: 80px;
+    background: #eee;
+    content: "";
+    display: inline-block;
+    margin-left: 20px;
+}
+
+
+
+.btn {
+    display: inline-block;
+    text-align: center;
+}
+
+.sl {
+    float: left;
+    width: 50%;
+    margin-top: 30px;
+}
+
+
+.clear {
+    clear: both;
+}
+.scrooldown {
+    display: block;
+    position: relative;
+    height: 40vh;
+    text-align: center;
+}
+
+.scrooldown a {
+    display: inline-block;
+    background-image: url("./pictures/fa-arrow-down.png");
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    
+    background-position-x: 3px;
+    background-position-y: 3px;
+}
+.scrooldown i {
+    background-color: bisque;
+    display: inline-block;
+    height: 40px;
+    
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0px;
+}
+

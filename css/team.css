@@ -1,0 +1,112 @@
+.team {
+    margin: 5rem 0;
+    height: 41rem;
+    background: url(../pictures/teambg.jpg) no-repeat scroll top center;
+    background-size: cover;
+    position: relative;
+    display: grid;
+    grid-template-rows: auto auto;
+}
+.team:before {
+    width: 100%;
+    height: 100%;
+    
+    position: absolute;
+    
+    left:0;
+    bottom:0;
+    content:"";
+    background: url("../pictures/teambg2.png") no-repeat bottom center;
+    background-size: cover;
+}
+
+.team-row1 h1 {
+    color: white;
+    font-size: 2.2rem;
+    margin-top: 5rem;
+}
+.team-row1 p {
+    color: white;
+}
+.team-row2 ul {
+    list-style-type: none;
+}
+
+.team-row2 ul li {
+    display: inline-block; 
+    text-align: center;
+}
+
+.team-row2 ul li:nth-child(1){
+    width: 15%;
+    display: inline-block; 
+    margin-left: 3%;
+    position: absolute;
+    left:1%;
+    top: 49%;
+}
+
+.team-row2 li:nth-child(2){
+    width: 15%;
+    display: inline-block;
+    margin-left: 3%;
+    position: absolute;
+    left:19%;
+    top:40%;
+}
+.team-row2 li:nth-child(3){
+    width: 15%;
+    display: inline-block;
+    margin-left: 3%;
+    position: absolute;
+    left:37%;
+    top:39%;
+}
+.team-row2 ul li:nth-child(4){
+    width: 15%;
+    display: inline-block;
+    margin-left: 3%;
+    position: absolute;
+    left:55%;
+    top:45%;
+}
+.team-row2 ul li:nth-child(5){
+    width: 15%;
+    display: inline-block;
+    margin-left: 3%;
+    position: absolute;
+    left:73%;
+    top:39%;
+}
+.team-row2-img img{
+    width:60px;
+    height: 60px;
+    margin:20px auto;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 3px rgba(231, 76, 60, 0.65);
+}
+
+li .team-row2-text{
+    padding: 10px 20px;
+    width:100%;
+    opacity:0;
+    transition: all 0.6s;
+    text-align: center;
+    display: block;
+    height: 80px;
+}
+
+li:hover .team-row2-img img{
+    transform: scale(1.08);
+}
+
+li:hover .team-row2-text{
+    opacity: 1;
+}
+
+.team-row2-text h4 {
+    color: red;
+}
+.team-row2-text p {
+    color: rgb(121, 121, 121);
+}

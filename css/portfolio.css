@@ -1,0 +1,94 @@
+#portfolio {
+    height: 79vw;
+    display: grid;
+    grid-template-rows: auto 25vw 25vw;
+    grid-template-columns: 100vw;
+    overflow-x: hidden;
+}
+
+.portfolio-row1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch;
+    color:rgb(121, 121, 121);
+}
+.portfolio-row1-row-ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-end;
+}
+.portfolio-row1-row-ul li {
+    display: inline-block;
+    padding: 3.8rem 1rem 0;
+}
+.portfolio-row1-row-ul a {
+    color: black;
+    padding-left: 1.9rem;
+}
+.portfolio-row2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.portfolio-row2 *,
+.portfolio-row3 * {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.portfolio-row2-item1 {
+    background-image: url("../pictures/pf1.jpg");
+}
+.portfolio-row2 *,
+.portfolio-row3 *{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.portfolio-row2-item2 {
+    background-image: url("../pictures/pf3.jpg");
+}
+.portfolio-row2-item3 {
+    background-image: url("../pictures/pf5.jpg");
+}
+.portfolio-row2-item4 {
+    background-image: url("../pictures/pf7.jpg");
+}
+
+.portfolio-row2-box {
+    width: 80%;
+    padding-top: 80%;
+    background-color:rgba(231, 76, 60, 0);
+}
+
+.portfolio-row2-box:hover {
+    background-color:rgba(231, 76, 60, 0.6);
+}
+
+.portfolio-row3 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.portfolio-row3-item1 {
+    background-image: url("../pictures/pf2.jpg");
+}
+.portfolio-row3-item2 {
+    background-image: url("../pictures/pf4.jpg");
+}
+.portfolio-row3-item3 {
+    background-image: url("../pictures/pf6.jpg");
+}
+.portfolio-row3-item4 {
+    background-image: url("../pictures/pf8.jpg");
+}

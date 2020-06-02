@@ -1,0 +1,51 @@
+#clogo {
+    background-color: #f4f5f9;
+    color:rgb(121, 121, 121);
+}
+
+.clogo  {
+    height: 43rem;
+    padding: 5.3rem 0;
+}
+.clogo-box {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    overflow: hidden;
+}
+
+.clogo-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.clogo-box-row1-box h1 {
+    font-size: 2rem;
+}
+.clogo-box-row2-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: none;
+}
+
+.clogo-box-row2-box a {
+    width: 100%;
+    height: 6rem;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+.clogo-box-row2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: space-between;
+    align-content: center;
+
+}
+.clogo-box-row2-box {
+    width: 23%;
+}
